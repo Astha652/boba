@@ -1,0 +1,16 @@
+body {
+    background-color: #d84315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 300px;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    100% { transform: rotate(360deg); }
+}
